@@ -14,4 +14,3 @@ class thingsTests(TestCase):
         self.assertTemplateUsed(response, 'snacks_list.html')
         self.assertTemplateUsed(response, 'base.html')
 
-# Create your tests here.
